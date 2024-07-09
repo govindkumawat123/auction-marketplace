@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+         />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+         />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="stylesheet" href="assets/css/after-login.css">
+      <link rel="stylesheet" href="assets/css/responsive.css" />
+      <title>Auction Marketplace</title>
+   </head>
+   <body>
+      <main>
+         <!-- Header Section S -->
+         <header>
+            <div class="container ct_max_width_88">
+               <div class="row">
+                  <div class="col-md-12">
+                     <nav class="ct_header ct_white_header">
+                        <div class="ct_logo">
+                           <img src="assets/img/logo.png" alt="" />
+                        </div>
+                        <div class="ct_navlinks">
+                           <ul>
+                              <li>
+                                 <a href="#" class="ct_outline_btn"><i class="fa-solid fa-plus me-1"></i>Create offer</a>
+                              </li>
+                              <li>
+                                 <a href="favorite.html"><i class="fa-regular fa-heart me-1"></i>Favorites</a>
+                              </li>
+                              <li class="ct_custom_dropdown">
+                                 <a href="javascript:void(0)"
+                                    ><i class="fa-regular fa-bell me-1"></i> Notifications<i class="fa-solid fa-angle-down ms-2"></i
+                                    ></a>
+                                 <ul class="ct_notification_drop">
+                                    <li>
+                                       <a href="product-detail.html">
+                                          <div class="ct_notification_img">
+                                             <img src="assets/img/car.jpg" alt="">
+                                          </div>
+                                          <div class="ct_notification_cnt">
+                                             <p class="ct_fs_14 ct_fw_500 mb-1">Deine Frage wurde beantwortet:
+                                                PORSCHE cayenne GTS I SUV 1440PS I 2016 1 214Tkm I MFK23
+                                             </p>
+                                             <p class="ct_fs_14 ct_fw_500 mb-0">23 May 2024, 15:32</p>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                        <a href="product-detail.html">
+                                          <div class="ct_notification_img">
+                                             <img src="assets/img/shoes.jpg" alt="">
+                                          </div>
+                                          <div class="ct_notification_cnt">
+                                             <p class="ct_fs_14 ct_fw_500 mb-1">Deine Frage wurde beantwortet:
+                                                PORSCHE cayenne GTS I SUV 1440PS I 2016 1 214Tkm I MFK23
+                                             </p>
+                                             <p class="ct_fs_14 ct_fw_500 mb-0">23 May 2024, 15:32</p>
+                                          </div>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="user-account.html" class="py-2 text-center text-dark justify-content-center"><i class="fa-solid fa-gear me-2"></i>Setting</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="ct_custom_dropdown ct_desktop_none">
+                                 <a href="#" class="ct_outline_btn"><img src="assets/img/language-sharp.svg" alt=""> EN <i class="fa-solid fa-angle-down ms-2"></i></a>
+                                 <ul class="ct_lang_option_white_black"  style="width: 100px !important;">
+                                    <li class="py-3">
+                                       <a href="#">DE</a>
+                                    </li>
+                                    <li class="py-3">
+                                       <a href="#">FR</a>
+                                    </li>
+                                    <li class="py-3">
+                                       <a href="#">IT</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <!-- <li class="ct_desktop_none">
+                                 <a href="#" class="ct_add_listing_btn py-2">
+                                   My Account
+                                 </a>
+                                 </li> -->
+                           </ul>
+                        </div>
+                        <div class="ct_right_menu">
+                           <ul>
+                              <li class="ct_custom_dropdown py-3">
+                                 <a href="#"> SHglobal <i class="fa-solid fa-angle-down ms-2"></i></a>
+                                 <ul class="ct_responsive_width_150">
+                                    <li>
+                                       <a href="my-purchase.html"><img src="assets/img/purchase_icon.svg" alt="" class="me-2">My Purchase</a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><img src="assets/img/my_selling.svg" alt="" class="me-2">My Selling</a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><img src="assets/img/fees_icon.svg" alt="" class="me-2">Fees</a>
+                                    </li>
+                                    <li>
+                                       <a href="#"><img src="assets/img/setting_icon.svg" alt="" class="me-2">User Account</a>
+                                    </li>
+                                    <li>
+                                       <a href="#" class="ct_fw_700">Log out</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="ct_custom_dropdown ct_mob_none">
+                                 <a href="#" class="ct_outline_btn"><img src="assets/img/language-sharp.svg" alt=""> EN <i class="fa-solid fa-angle-down ms-2"></i></a>
+                                 <ul  style="width: 100px !important;">
+                                    <li class="py-3">
+                                       <a href="#">DE</a>
+                                    </li>
+                                    <li class="py-3">
+                                       <a href="#">FR</a>
+                                    </li>
+                                    <li class="py-3">
+                                       <a href="#">IT</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <div class="ct_toggle_menu">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                           </div>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- Header Section E -->
+       <section class="mt-4 ct_py_80 pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="ct_fw_700 ct_fs_35">Your purchase</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <div class="ct_car_detail_bg pb-5 position-relative">
+                          <div class="ct_checkbox_top"> 
+                            <input type="checkbox" checked>
+                          </div>
+                        <h5 class="ct_fs_21 ct_fw_600">Delivery</h5>
+
+                       <div class="ct_blue_border_bg mt-4">
+                            <div class="d-flex  justify-content-between gap-2 flex-wrap">
+                                <div class="d-flex gap-3 align-items-start">
+                                    <img src="assets/img/location_123.svg" alt="">
+                                    <div>
+                                        <h5 class="ct_fs_21 ct_fw_700">collection</h5>
+                                        <p class="mb-0 ct_fs_16">Arrange a pickup date with the seller</p>
+                                    </div>
+                                </div>
+                                <h5 class="ct_fs_21 ct_fw_700 mb-0">0.00</h5>
+                            </div>
+                            <hr class="ct_hr_line mt-4">
+
+                            <div>
+                                <h5 class="ct_fs_21">Address</h5>
+                                <p class="mt-3 mb-2">Ready for collection in Illnau 8308</p>
+                                <p class="ct_fc_ct_fc_757575">You will receive the exact address upon payment.</p>
+
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.0660402542794!2d75.89208367590597!3d22.725786627337328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd045ddbc7af%3A0x88f1ecac09f5593e!2sUK%20Dental%20%7C%20Anand%20Bazar!5e0!3m2!1sen!2sin!4v1720163603540!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                       </div>
+                           
+                    </div>
+                    <div class="ct_car_detail_bg pb-5 position-relative mt-4">
+                        <div class="ct_checkbox_top"> 
+                          <input type="checkbox" checked>
+                        </div>
+                      <h5 class="ct_fs_21 ct_fw_600">payment</h5>
+
+                     <div class="ct_blue_border_bg mt-2">
+                          <div class="d-flex  gap-2 flex-wrap">
+                              <div class="d-flex gap-3 align-items-start">
+                                  <img src="assets/img/cash.svg" alt="">
+                                  <div>
+                                      <h5 class="ct_fs_21 ct_fw_700">In cash</h5>
+                                      <p class="mb-0 ct_fs_16">In cash</p>
+                                  </div>
+                              </div>
+                              <p class="mb-0">You have chosen “Cash on collection”. Please have the exact amount in cash ready when you
+                                collect the item.</p>
+                          </div>
+                     </div>
+                         
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="ct_car_detail_bg px-0">
+                        <div class="d-flex gap-3 align-items-center px-4">
+                            <img src="assets/img/t_100x100.png" alt="" class="ct_img_w_76">
+                            <div>
+                                <h5 class="ct_fs_21 ct_fw_700">Porsche Cayenne GTS</h5>
+                                <p class="mb-0 ct_fs_16">Needed</p>
+                            </div>
+                        </div>
+                        <hr class="ct_hr_line">
+                        <div class="d-flex gap-3 align-items-center px-4 justify-content-between">
+                            <p class="mb-0">Price</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <p class="mb-0 ct_fw_700">1 x </p>
+                                <p class="mb-0 ct_fw_600">38,000.00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-center px-4 justify-content-between mt-2">
+                            <p class="mb-0">collection</p>
+                            <div class="d-flex align-items-center gap-3">
+                                <p class="mb-0 ct_fw_600">Free</p>
+                            </div>
+                        </div>
+
+                        <hr class="ct_hr_line ">
+
+                        <div class="d-flex gap-3 align-items-center px-4 justify-content-between">
+                            <p class="mb-0">total price</p>
+                            <p class="mb-0 ct_fw_600">38'000.00</p>
+                        </div>
+
+
+                      <div class="px-4">
+                       <a href="your-purchase-done.html"> <button class="ct_blue_btn  w-100 mt-5">Buy and pay</button></a>
+                      </div>
+
+                     <div class="px-4">
+                        <p class="ct_fs_14 mt-3">
+                            By clicking on "Buy and pay", you accept <span class="ct_blue_text">Ricardo's terms and conditions</span>  and agree to purchase this item and pay the total amount.
+                          </p>
+                     </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+       </section>
+      
+
+
+       
+
+         <footer class="ct_inner_footer_bg ">
+            <div class="container ct_max_width_88 position-relative">
+               <div class="ct_scroll_top">
+                  <i class="fa-solid fa-arrow-up-long"></i>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="ct_inner_footer">
+                        <div class="ct_inner_page_logo">
+                           <img src="assets/img/blakc_inner_logo.png" alt="">
+                        </div>
+                        <div class="ct_inner_page_link_footer">
+                           <ul>
+                              <li>
+                                 <a href="#">Conditions</a>
+                              </li>
+                              <li>
+                                 <a href="#">Manage Preferences</a>
+                              </li>
+                              <li>
+                                 <a href="#">imprint</a>
+                              </li>
+                              <li>
+                                 <a href="#">data protection</a>
+                              </li>
+                              <li>
+                                 <a href="#">Help</a>
+                              </li>
+                              <li>
+                                 <a href="#">News</a>
+                              </li>
+                              <li>
+                                 <a href="#">Jobs</a>
+                              </li>
+                              <li>
+                                 <a href="#">Report security issue</a>
+                              </li>
+                             
+                           </ul>
+                        </div>
+
+                        <div class="ct_inner_social_footer">
+                           <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                           <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+               
+            </div>
+         </footer>
+
+
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
