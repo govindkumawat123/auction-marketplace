@@ -7,6 +7,42 @@ $(document).ready(function(){
     // Dropdown js S 
 
 
+    $( '#single-select-clear-field' ).select2( {
+      theme: "bootstrap-5",
+      width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+      placeholder: $( this ).data( 'placeholder' ),
+      allowClear: true
+    } );
+
+    $( '#single-select-field' ).select2( {
+      theme: "bootstrap-5",
+      width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+      placeholder: $( this ).data( 'placeholder' ),
+  } );
+
+  $( '#single-select-field2' ).select2( {
+    theme: "bootstrap-5",
+    width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+    placeholder: $( this ).data( 'placeholder' ),
+} );
+$( '#single-select-field3' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
+
+$( '#single-select-field4' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
+$( '#single-select-field5' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
+
+
     // Sticky Menu js
 
     $(window).scroll(function() {    
@@ -132,7 +168,10 @@ $(document).ready(function(){
     }
 })
 
+
+
 })
+
 
 
 

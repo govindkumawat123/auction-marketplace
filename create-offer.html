@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/after-login.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Auction Marketplace</title>
+  </head>
+  <body>
+    <main>
+      <!-- Header Section S -->
+      <header>
+        <div class="container ct_max_width_88">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="ct_header ct_white_header">
+                <div class="ct_logo">
+                  <img src="assets/img/logo.png" alt="" />
+                </div>
+                <div class="ct_navlinks">
+                  <ul>
+                    <li>
+                      <a href="#" class="ct_outline_btn"
+                        ><i class="fa-solid fa-plus me-1"></i>Create offer</a
+                      >
+                    </li>
+                    <li>
+                      <a href="favorite.html"
+                        ><i class="fa-regular fa-heart me-1"></i>Favorites</a
+                      >
+                    </li>
+                    <li class="ct_custom_dropdown">
+                      <a href="javascript:void(0)"
+                        ><i class="fa-regular fa-bell me-1"></i> Notifications<i
+                          class="fa-solid fa-angle-down ms-2"
+                        ></i
+                      ></a>
+                      <ul class="ct_notification_drop">
+                        <li>
+                          <a href="product-detail.html">
+                            <div class="ct_notification_img">
+                              <img src="assets/img/car.jpg" alt="" />
+                            </div>
+                            <div class="ct_notification_cnt">
+                              <p class="ct_fs_14 ct_fw_500 mb-1">
+                                Deine Frage wurde beantwortet: PORSCHE cayenne
+                                GTS I SUV 1440PS I 2016 1 214Tkm I MFK23
+                              </p>
+                              <p class="ct_fs_14 ct_fw_500 mb-0">
+                                23 May 2024, 15:32
+                              </p>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="product-detail.html">
+                            <div class="ct_notification_img">
+                              <img src="assets/img/shoes.jpg" alt="" />
+                            </div>
+                            <div class="ct_notification_cnt">
+                              <p class="ct_fs_14 ct_fw_500 mb-1">
+                                Deine Frage wurde beantwortet: PORSCHE cayenne
+                                GTS I SUV 1440PS I 2016 1 214Tkm I MFK23
+                              </p>
+                              <p class="ct_fs_14 ct_fw_500 mb-0">
+                                23 May 2024, 15:32
+                              </p>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="user-account.html"
+                            class="py-2 text-center text-dark justify-content-center"
+                            ><i class="fa-solid fa-gear me-2"></i>Setting</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="ct_custom_dropdown ct_desktop_none">
+                      <a href="#" class="ct_outline_btn"
+                        ><img src="assets/img/language-sharp.svg" alt="" /> EN
+                        <i class="fa-solid fa-angle-down ms-2"></i
+                      ></a>
+                      <ul
+                        class="ct_lang_option_white_black"
+                        style="width: 100px !important"
+                      >
+                        <li class="py-3">
+                          <a href="#">DE</a>
+                        </li>
+                        <li class="py-3">
+                          <a href="#">FR</a>
+                        </li>
+                        <li class="py-3">
+                          <a href="#">IT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- <li class="ct_desktop_none">
+                                 <a href="#" class="ct_add_listing_btn py-2">
+                                   My Account
+                                 </a>
+                                 </li> -->
+                  </ul>
+                </div>
+                <div class="ct_right_menu">
+                  <ul>
+                    <li class="ct_custom_dropdown py-3">
+                      <a href="#">
+                        SHglobal <i class="fa-solid fa-angle-down ms-2"></i
+                      ></a>
+                      <ul class="ct_responsive_width_150">
+                        <li>
+                          <a href="my-purchase.html"
+                            ><img
+                              src="assets/img/purchase_icon.svg"
+                              alt=""
+                              class="me-2"
+                            />My Purchase</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><img
+                              src="assets/img/my_selling.svg"
+                              alt=""
+                              class="me-2"
+                            />My Selling</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><img
+                              src="assets/img/fees_icon.svg"
+                              alt=""
+                              class="me-2"
+                            />Fees</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><img
+                              src="assets/img/setting_icon.svg"
+                              alt=""
+                              class="me-2"
+                            />User Account</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="ct_fw_700">Log out</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="ct_custom_dropdown ct_mob_none">
+                      <a href="#" class="ct_outline_btn"
+                        ><img src="assets/img/language-sharp.svg" alt="" /> EN
+                        <i class="fa-solid fa-angle-down ms-2"></i
+                      ></a>
+                      <ul style="width: 100px !important">
+                        <li class="py-3">
+                          <a href="#">DE</a>
+                        </li>
+                        <li class="py-3">
+                          <a href="#">FR</a>
+                        </li>
+                        <li class="py-3">
+                          <a href="#">IT</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="ct_toggle_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Header Section E -->
+      <main class="ct_create_offer_main_bg">
+        <section class="ct_middle_bg mt-3 py-3">
+          <div class="container ct_max_width_88">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <div class="progress ct_form_progress_bar">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 25%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pt-3 ct_py_80">
+          <div class="container ct_max_width_88">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <h4 class="ct_fs_35">Create your offer</h4>
+                <form action="" class="mt-3">
+                  <div class="ct_white_bg_shadow">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="mb-0">Photos</h4>
+                      <div class="ct_tooltip">
+                        <i class="fa-regular fa-circle-question ct_blue_text">
+                        </i>
+                        <p class="ct_tooltip_text">
+                          Scan this QR code with your smartphone, select the
+                          photos from your media library and upload them.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="ct_black_border_1 mt-3">
+                      <div class="d-flex align-items-center gap-3">
+                        <img src="assets/img/qr_code.png" alt="" />
+                        <div>
+                          <h4 class="mb-0 ct_fs_16">
+                            Upload photos directly from your smartphone
+                          </h4>
+                          <p class="mb-0">
+                            Scan this QR code with your smartphone, select the
+                            photos from your media library and upload them.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ct_grid_5 mt-4">
+                      <div class="ct_img_upload_box ct_main_img_active">
+                        <label for="ct_main_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_main_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/main_img_1.svg" alt="" />
+                            <p class="mb-0 ct_blue_text">Main image</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_every_side_1_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_every_side_1_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/every_side_1.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Every side</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_every_side_2_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_every_side_2_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/every_side_2.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Every side</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_every_side_3_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_every_side_3_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/every_side_3.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Every side</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_defects_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_defects_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/defects_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">defects</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_Details_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_Details_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/details_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Details</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_brand_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_brand_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/brand_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">brand</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_Dimensions_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_Dimensions_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/dimention_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Dimensions</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_Accesories_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_Accesories_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/accessories_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">Accesories</p>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="ct_img_upload_box">
+                        <label for="ct_context_img">
+                          <input
+                            type="file"
+                            class="d-none"
+                            name=""
+                            id="ct_context_img"
+                          />
+                          <!-- <img src="assets/img/black_phone.jpg" alt="" class="ct_uploaded_img"> -->
+                          <div class="ct_upload_img_cnt">
+                            <img src="assets/img/context_img.svg" alt="" />
+                            <p class="mb-0 ct_fc_ct_fc_757575">context</p>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Title</h4>
+                       <div class="ct_tooltip">
+                         <i class="fa-regular fa-circle-question ct_blue_text">
+                         </i>
+                         <p class="ct_tooltip_text">
+                           Scan this QR code with your smartphone, select the
+                           photos from your media library and upload them.
+                         </p>
+                       </div>
+                     </div>
+                     <div class="form-group position-relative">
+                        <input type="text" class="form-control ct_input_shadow" value="Canon 3000D">
+                        <span class="ct_count_position_input">0/60</span>
+                     </div>
+                   </div>
+                   <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Product type</h4>
+                       <div class="ct_tooltip">
+                         <i class="fa-regular fa-circle-question ct_blue_text">
+                         </i>
+                         <p class="ct_tooltip_text">
+                           Scan this QR code with your smartphone, select the
+                           photos from your media library and upload them.
+                         </p>
+                       </div>
+                     </div>
+                    <div>
+                     <p class="ct_fc_ct_fc_757575">Once you have entered at least one image and/or a title, you can select the appropriate product type here.</p>
+
+                     <div class="radio-group mb-3">
+                        <input type="radio" id="radio1" name="radio-group" class="radio-input" checked>
+                        <label for="radio1" class="radio-label d-flex align-items-center gap-2 ">
+                          <span class="radio-inner-circle"></span>
+                          Anzug
+                        </label>
+                      </div>
+                      <select class="form-select ct_select_2_option" id="single-select-clear-field" data-placeholder="Choose another product type">
+                        <option></option>
+                        <option>Trash can</option>
+                        <option>Action Cam</option>
+                        <option>Adapter</option>
+                        <option>Briefcase</option>
+                        <option>Paper shredder</option>
+                        <option>Alarm System</option>
+                        <option>album</option>
+                        <option>Alcoholic beverage</option>
+                    </select>
+                    </div>
+                   </div>
+
+                   <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Details for: Suit</h4>
+                       <div class="ct_tooltip">
+                         <i class="fa-regular fa-circle-question ct_blue_text">
+                         </i>
+                         <p class="ct_tooltip_text">
+                           Scan this QR code with your smartphone, select the
+                           photos from your media library and upload them.
+                         </p>
+                       </div>
+                     </div>
+
+                    <div class="row">
+                     <div class="col-lg-5 mb-4 mb-lg-0">
+                           <div>
+                              <h5 class="ct_fs_16">Gender and age group</h5>
+                              <!-- add This class on badge click :- ct_active_blue_bg -->
+                              <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                                 <span class="ct_suggestion_badge"
+                                   >Men's</span>
+                                 <span class="ct_suggestion_badge">Ladies</span>
+                                 <span class="ct_suggestion_badge">Boys</span>
+                               </div>
+                               <div class="mt-3">
+                                 <select class="form-select ct_select_2__round" id="single-select-field" data-placeholder="More">
+                                    <option></option>
+                                    <option>Reactive</option>
+                                    <option>Solution</option>
+                                    <option>Conglomeration</option>
+                                    <option>Algoritm</option>
+                                    <option>Holistic</option>
+                                </select>
+                               </div>
+                           </div>
+                           <div class="mt-3">
+                              <h5 class="ct_fs_16">Size</h5>
+                              <!-- add This class on badge click :- ct_active_blue_bg -->
+                              <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                                 <span class="ct_suggestion_badge"
+                                   >XS</span>
+                                 <span class="ct_suggestion_badge">132</span>
+                                 <span class="ct_suggestion_badge">XXL</span>
+                               </div>
+                               <div class="mt-3">
+                                 <select class="form-select ct_select_2__round" id="single-select-field2" data-placeholder="More">
+                                    <option></option>
+                                    <option>Reactive</option>
+                                    <option>Solution</option>
+                                    <option>Conglomeration</option>
+                                    <option>Algoritm</option>
+                                    <option>Holistic</option>
+                                </select>
+                               </div>
+                           </div>
+                     </div>
+                     <div class="col-lg-5 offset-lg-2 mb-4 mb-lg-0">
+                        <div>
+                           <h5 class="ct_fs_16">Suit type</h5>
+                           <!-- add This class on badge click :- ct_active_blue_bg -->
+                           <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                              <span class="ct_suggestion_badge"
+                                >Ski suit</span>
+                              <span class="ct_suggestion_badge">Sweat suit</span>
+                              <span class="ct_suggestion_badge">Motorcycle suit</span>
+                            </div>
+                            <div class="mt-3">
+                              <select class="form-select ct_select_2__round" id="single-select-field3" data-placeholder="More">
+                                 <option></option>
+                                 <option>Reactive</option>
+                                 <option>Solution</option>
+                                 <option>Conglomeration</option>
+                                 <option>Algoritm</option>
+                                 <option>Holistic</option>
+                             </select>
+                            </div>
+                        </div>
+                      
+                  </div>
+
+                    
+                    </div>
+                    <hr class="ct_hr_line">
+                    <div class="row">
+                     <div class="col-lg-5 mb-4 mb-lg-0">
+                           <div>
+                              <h5 class="ct_fs_16">Brand(Optional)</h5>
+                              <!-- add This class on badge click :- ct_active_blue_bg -->
+                              <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                                 <span class="ct_suggestion_badge"
+                                   >Fischer Amps</span>
+                                 <span class="ct_suggestion_badge">Hewlett-packard</span>
+                                 <span class="ct_suggestion_badge">Sennheiser</span>
+                               </div>
+                               <div class="mt-3">
+                                 <select class="form-select ct_select_2__round" id="single-select-field4" data-placeholder="More">
+                                    <option></option>
+                                    <option>Reactive</option>
+                                    <option>Solution</option>
+                                    <option>Conglomeration</option>
+                                    <option>Algoritm</option>
+                                    <option>Holistic</option>
+                                </select>
+                               </div>
+                           </div>
+                           <div class="mt-3">
+                              <h5 class="ct_fs_16">Compatibility (Optional)</h5>
+                              <!-- add This class on badge click :- ct_active_blue_bg -->
+                              <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                                 <span class="ct_suggestion_badge"
+                                   >Xiaomi Redmi Note  10s</span>
+                                 <span class="ct_suggestion_badge">OnePlus 9 Pro</span>
+                                 <span class="ct_suggestion_badge"
+                                 >Xiaomi Redmi Note  11s</span>
+                               </div>
+                               <div class="mt-3">
+                                 <select class="form-select ct_select_2__round" id="single-select-field5" data-placeholder="More">
+                                    <option></option>
+                                    <option>Reactive</option>
+                                    <option>Solution</option>
+                                    <option>Conglomeration</option>
+                                    <option>Algoritm</option>
+                                    <option>Holistic</option>
+                                </select>
+                               </div>
+                           </div>
+                     </div>
+                     <div class="col-lg-5 offset-lg-2 mb-4 mb-lg-0">
+                        <div>
+                           <h5 class="ct_fs_16">Voltage (Optional)</h5>
+                           <!-- add This class on badge click :- ct_active_blue_bg -->
+                          
+                           <div class="form-group position-relative mt-0 ">
+                              <input type="text" class="form-control ct_input_shadow" value="Tension">
+                              <span class="ct_count_position_input">Volt</span>
+                           </div>
+                        </div>
+                      
+                  </div>
+
+                    
+                    </div>
+                   </div>
+                   <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Condition & Description</h4>
+                       <div class="ct_tooltip">
+                         <i class="fa-regular fa-circle-question ct_blue_text">
+                         </i>
+                         <p class="ct_tooltip_text">
+                           Scan this QR code with your smartphone, select the
+                           photos from your media library and upload them.
+                         </p>
+                       </div>
+                     </div>
+
+                     <div>
+                        <h5 class="ct_fs_16">Condition</h5>
+                        <!-- add This class on badge click :- ct_active_blue_bg -->
+                        <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+                           <span class="ct_suggestion_badge"
+                             >Needed</span>
+                           <span class="ct_suggestion_badge">New and in original packaging</span>
+                           <span class="ct_suggestion_badge">New: (as described)</span>
+                           <span class="ct_suggestion_badge">Malfunction</span>
+                         </div>
+                         <p class="mb-0 ct_fc_ct_fc_757575  mt-2">The item has been used but is in working order.</p>
+                        
+                         <div class="mt-3">
+                           <textarea class="form-control ct_input_shadow h-auto" rows="4" placeholder="Description"></textarea>
+                         </div>
+                         <div class="form-group position-relative mt-5 w-50">
+                           <input type="text" class="form-control ct_input_shadow" >
+                           <span class="ct_count_position_input">0/60</span>
+                        </div>
+                        <p class="mb-0 mt-2 ct_fs_14 ct_text_op_8">Optional</p>
+                     </div>
+
+                   
+                   </div>
+
+
+                   <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Offer & Price</h4>
+                       <div class="ct_tooltip">
+                         <i class="fa-regular fa-circle-question ct_blue_text">
+                         </i>
+                         <p class="ct_tooltip_text">
+                           Scan this QR code with your smartphone, select the
+                           photos from your media library and upload them.
+                         </p>
+                       </div>
+                     </div>
+
+                     <div class="ct_offer_price_tab">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                           <li class="nav-item" role="presentation">
+                             <button class="nav-link active" id="pills-auction-tab" data-bs-toggle="pill" data-bs-target="#pills-auction" type="button" role="tab" aria-controls="pills-auction" aria-selected="true">
+                              <div class="text-center py-4">
+                                 <h4 class="ct_fs_16 mb-0">auction</h4>
+                                 <p class="mb-0 ct_fc_ct_fc_757575">Set a starting price and let bidders drive it up.</p>
+                              </div>
+                             </button>
+                           </li>
+                           <li class="nav-item" role="presentation">
+                             <button class="nav-link" id="pills-Fixed-price-offer-tab" data-bs-toggle="pill" data-bs-target="#pills-Fixed-price-offer" type="button" role="tab" aria-controls="pills-Fixed-price-offer" aria-selected="false">
+                              <div class="text-center py-4">
+                                 <h4 class="ct_fs_16 mb-0">Fixed price offer</h4>
+                                 <p class="mb-0 ct_fc_ct_fc_757575">Set the exact price you want to get for an immediate sale of
+                                    your item</p>
+                              </div>
+                             </button>
+                           </li>
+                          
+                         </ul>
+                         <div class="tab-content mt-4" id="pills-tabContent">
+                           <div class="tab-pane fade show active" id="pills-auction" role="tabpanel" aria-labelledby="pills-auction-tab">
+                              <div class="ct_black_border_1">
+                                 <h4>Price</h4>
+                                 <div class="row">
+                                    <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                         <input
+                                           type="text"
+                                           class="form-control ct_text_indent_30 ct_input_shadow"
+                                           id="floatingInput"
+                                           placeholder="Your price suggestion"
+                                           value="9300"
+                                         />
+                                         <label for="floatingInput">Your price suggestion</label>
+                                         <span class="ct_price_tag_top123">CHF</span>
+                                       </div>
+                                    </div>
+                                     <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                          <select class="form-select ct_input_shadow ct_arrow_hide ct_text_indent_30" id="floatingSelect" aria-label="Floating label select example">
+                                            <!-- <option selected>Open this select menu</option> -->
+                                            <option value="1">1.00</option>
+                                            <option value="2">2.00</option>
+                                            <option value="3">3.00</option>
+                                          </select>
+                                          <label for="floatingSelect">Increase step</label>
+                                          <span class="ct_price_tag_top123">CHF</span>
+                                        </div>
+                                     </div>
+                                 </div>
+                                 <p class="ct_fs_16 ct_fc_ct_fc_757575 mb-0 mt-1">Success commission: 10% of the sales price (max. CHF 290.-)</p>
+
+                                <div class="mt-4">
+                                 <div class="d-flex align-items-center gap-2 ">
+                                    <label class="ct_switch">
+                                      <input type="checkbox" checked />
+                                      <span class="ct_slider"></span>
+                                    </label>
+                                    <p class="mb-0 ct_fw_500">collection</p>
+                                  </div>
+                                  <div class="row mt-3">
+                                    <div class="col-md-3">
+                                       <div class="form-group">
+                                          <input type="text" class="form-control ct_input_shadow" placeholder="Buy Now Price" disabled>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                                <div class="mt-5">
+                                   <h4 class="ct_fs_21 ct_fw_600 mb-3">Duration</h4>
+                                   <div class="row align-items-center">
+                                    <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                         <input
+                                           type="date"
+                                           class="form-control  ct_input_shadow"
+                                           id="floatingInput"
+                                           placeholder="Your price suggestion"
+                                           value="9300"
+                                         />
+                                         <label for="floatingInput">begin</label>
+                                       </div>
+                                    </div>
+                                     <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                          <select class="form-select ct_input_shadow ct_arrow_hide " id="floatingSelect" aria-label="Floating label select example">
+                                            <!-- <option selected>Open this select menu</option> -->
+                                            <option value="1">7 Tage</option>
+                                            <option value="2">7 Tage</option>
+                                            <option value="3">7 Tage</option>
+                                          </select>
+                                          <label for="floatingSelect">Length of time</label>
+                                        </div>
+                                     </div>
+                                     <div class="col-md-6  mb-3 mb-md-0">
+                                       <div class="d-flex align-items-center justify-content-between gap-2">
+                                          <div class="d-flex align-items-center gap-2 ">
+                                             <label class="ct_switch">
+                                               <input type="checkbox" checked />
+                                               <span class="ct_slider"></span>
+                                             </label>
+                                             <p class="mb-0 ct_fw_500">Automatic reactivation of your
+                                                offer up to 3 times</p>
+                                           </div>
+                                           <div class="ct_tooltip">
+                                             <i class="fa-regular fa-circle-question ">
+                                             </i>
+                                             <p class="ct_tooltip_text">
+                                               Scan this QR code with your smartphone, select the
+                                               photos from your media library and upload them.
+                                             </p>
+                                           </div>
+                                       </div>
+                                     </div>
+                                 </div>
+                                 <p class="ct_fs_16 ct_fc_ct_fc_757575 mt-4">Offer end: Wednesday 19 June</p>
+                                </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="pills-Fixed-price-offer" role="tabpanel" aria-labelledby="pills-Fixed-price-offer-tab">
+                              <div class="ct_black_border_1">
+                                 <h4>Price</h4>
+                                 <div class="row align-items-center">
+                                    <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                         <input
+                                           type="text"
+                                           class="form-control  ct_input_shadow"
+                                           id="floatingInput"
+                                           placeholder="Your price suggestion"
+                                           value="1"
+                                         />
+                                         <label for="floatingInput">number of pieces</label>
+                                         <!-- <span class="ct_price_tag_top123">CHF</span> -->
+                                       </div>
+                                    </div>
+                                     <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                          <input
+                                            type="text"
+                                            class="form-control ct_text_indent_30 ct_input_shadow"
+                                            id="floatingInput"
+                                            placeholder="Price" value="1"
+                                            
+                                          />
+                                          <label for="floatingInput">Price</label>
+                                          <span class="ct_price_tag_top123">CHF</span>
+                                        </div>
+                                     </div>
+                                     <div class="col-md-6  mb-3 mb-md-0">
+                                       <div class="d-flex align-items-center  gap-2">
+                                          <div class="d-flex align-items-center gap-2 ">
+                                             <label class="ct_switch">
+                                               <input type="checkbox" checked />
+                                               <span class="ct_slider"></span>
+                                             </label>
+                                             <p class="mb-0 ct_fw_500">Enable Price Suggestions</p>
+                                           </div>
+                                           <div class="ct_tooltip">
+                                             <i class="fa-regular fa-circle-question ">
+                                             </i>
+                                             <p class="ct_tooltip_text">
+                                               Scan this QR code with your smartphone, select the
+                                               photos from your media library and upload them.
+                                             </p>
+                                           </div>
+                                       </div>
+                                     </div>
+                                 </div>
+                                 <p class="ct_fs_16 ct_fc_ct_fc_757575 mb-0 mt-1">Success commission: 12% (max. CHF 290.-)</p>
+
+                               
+                                <div class="mt-5">
+                                   <h4 class="ct_fs_21 ct_fw_600 mb-3">Duration</h4>
+                                   <div class="row">
+                                    <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                         <input
+                                           type="date"
+                                           class="form-control  ct_input_shadow"
+                                           id="floatingInput"
+                                           placeholder="Your price suggestion"
+                                           value="9300"
+                                         />
+                                         <label for="floatingInput">begin</label>
+                                       </div>
+                                    </div>
+                                     <div class="position-relative col-md-3 mb-3 mb-md-0">
+                                       <div class="form-floating ">
+                                          <select class="form-select ct_input_shadow ct_arrow_hide " id="floatingSelect" aria-label="Floating label select example">
+                                            <!-- <option selected>Open this select menu</option> -->
+                                            <option value="1">7 Tage</option>
+                                            <option value="2">7 Tage</option>
+                                            <option value="3">7 Tage</option>
+                                          </select>
+                                          <label for="floatingSelect">Length of time</label>
+                                        </div>
+                                     </div>
+                                   
+                                 </div>
+                                 <p class="ct_fs_16 ct_fc_ct_fc_757575 mt-4">Offer end: Wednesday 7 August</p>
+                                </div>
+                              </div>
+                           </div>
+                         </div>
+                     </div>
+
+                 
+
+                   
+                   </div>
+
+                   <div class="ct_white_bg_shadow mt-4">
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                       <h4 class="mb-0">Delivery</h4>
+                     </div>
+                     <div class="d-flex align-items-center gap-2 ">
+                        <label class="ct_switch">
+                          <input type="checkbox" checked />
+                          <span class="ct_slider"></span>
+                        </label>
+                        <p class="mb-0 ct_fw_500">collection</p>
+                      </div>
+
+                      <div class=" mt-4">
+                       
+                        <div class="ct_blue_border_bg py-3 position-relative" style="border-radius: 5px;">
+                           <div class="ct_checkbox_top"> 
+                              <input type="checkbox" checked>
+                            </div>
+                             <div class="d-flex  gap-2 flex-wrap">
+                                 <div class="d-flex gap-3 align-items-start">
+                                     <img src="assets/img/pickup-iconSVG.png" alt="">
+                                     <div>
+                                         <h5 class="ct_fs_16 ct_fw_700 mb-0">collection</h5>
+                                         <p class="mb-0 ct_fs_14 ct_fc_ct_fc_757575">at Sonnhaldenstrasse 75, 6331 Hünenberg</p>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                        <hr class="ct_hr_line mt-4">
+
+                        <div>
+                           <div class="d-flex align-items-center gap-2 ">
+                              <label class="ct_switch">
+                                <input type="checkbox" />
+                                <span class="ct_slider"></span>
+                              </label>
+                              <p class="mb-0 ct_fw_500">Shipping (costs to be borne by the buyer)</p>
+                            </div>
+
+                            <div class="accordion mt-3 ct_custom_accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                   <div class="d-flex align-items-center gap-3">
+                                    <i class="bi bi-box-seam ct_fs_21 ct_fc_ct_fc_757575"></i>
+                                    <div>
+                                       <h4 class="mb-0 ct_fs_16">package</h4>
+                                       <p class="mb-0 ct_fs_14">100 x 60 x 60 cm</p>
+                                   </div>
+                                   </div>
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="d-flex align-items-center gap-3">
+                                       <i class="bi bi-box-seam ct_fs_21 ct_fc_ct_fc_757575"></i>
+                                       <div>
+                                          <h4 class="mb-0 ct_fs_16">package</h4>
+                                          <p class="mb-0 ct_fs_14">100 x 60 x 60 cm</p>
+                                      </div>
+                                      </div>
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    
+                         
+                  </div>
+                   
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="ct_inner_footer_bg">
+        <div class="container ct_max_width_88 position-relative">
+          <div class="ct_scroll_top">
+            <i class="fa-solid fa-arrow-up-long"></i>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ct_inner_footer">
+                <div class="ct_inner_page_logo">
+                  <img src="assets/img/blakc_inner_logo.png" alt="" />
+                </div>
+                <div class="ct_inner_page_link_footer">
+                  <ul>
+                    <li>
+                      <a href="#">Conditions</a>
+                    </li>
+                    <li>
+                      <a href="#">Manage Preferences</a>
+                    </li>
+                    <li>
+                      <a href="#">imprint</a>
+                    </li>
+                    <li>
+                      <a href="#">data protection</a>
+                    </li>
+                    <li>
+                      <a href="#">Help</a>
+                    </li>
+                    <li>
+                      <a href="#">News</a>
+                    </li>
+                    <li>
+                      <a href="#">Jobs</a>
+                    </li>
+                    <li>
+                      <a href="#">Report security issue</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ct_inner_social_footer">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
