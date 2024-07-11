@@ -206,7 +206,9 @@ margin-top: 10px;
     display: block;
 }
 
-
+.ct_all_cateogries_main12 li:hover a ~ .ct_sub_categories_dropdown {
+  display: flex;
+}
 .ct_all_categories_modal_btn{
     cursor: pointer;
 }
@@ -259,7 +261,7 @@ padding-right: 0px;
 }
 .ct_sub_categories_dropdown {
   position: absolute;
-  left: 275px;
+  left: 270px;
   z-index: 9999999999999;
   max-width: 700px;
   background: #fff;
