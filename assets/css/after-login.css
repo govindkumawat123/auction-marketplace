@@ -206,7 +206,9 @@ margin-top: 10px;
     display: block;
 }
 
-
+.ct_all_cateogries_main12 li:hover a ~ .ct_sub_categories_dropdown {
+  display: flex;
+}
 .ct_all_categories_modal_btn{
     cursor: pointer;
 }
@@ -259,7 +261,7 @@ padding-right: 0px;
 }
 .ct_sub_categories_dropdown {
   position: absolute;
-  left: 275px;
+  left: 270px;
   z-index: 9999999999999;
   max-width: 700px;
   background: #fff;
@@ -1614,5 +1616,12 @@ p.ct_tooltip_text:before {
   background-color: transparent;
   box-shadow: unset;
   border-bottom: 1px solid #9e9e9e;
+}
+.ct_small_dot_8{
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background-color:orange ;
+  display: inline-block;
 }
 /* Create Offer css E */

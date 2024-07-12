@@ -4,6 +4,16 @@ $(document).ready(function(){
         $('.ct_navlinks').toggleClass('ct_active');
     })
 
+    $('.ct_search_input input').focus(function () {
+      $('.ct_search_input input').attr('placeholder', 'Type here...');
+
+      $(this).parent().addClass('ct_full_search');
+  })
+
+  $('.ct_search_close').click(function(){
+      $('.ct_search_input').removeClass('ct_full_search')
+  })
+
     // Dropdown js S 
 
 
@@ -60,15 +70,7 @@ $( '#single-select-field5' ).select2( {
 
     // Search bar js S
 
-    $('.ct_search_input input').focus(function () {
-        $('.ct_search_input input').attr('placeholder', 'Type here...');
 
-        $(this).parent().addClass('ct_full_search');
-    })
-
-    $('.ct_search_close').click(function(){
-        $('.ct_search_input').removeClass('ct_full_search')
-    })
 
 
     $(".ct_all_cateogries_main12 ul > li > a").hover(function () {
