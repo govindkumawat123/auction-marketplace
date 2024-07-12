@@ -1617,4 +1617,11 @@ p.ct_tooltip_text:before {
   box-shadow: unset;
   border-bottom: 1px solid #9e9e9e;
 }
+.ct_small_dot_8{
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background-color:orange ;
+  display: inline-block;
+}
 /* Create Offer css E */
