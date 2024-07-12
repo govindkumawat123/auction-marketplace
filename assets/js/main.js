@@ -4,7 +4,53 @@ $(document).ready(function(){
         $('.ct_navlinks').toggleClass('ct_active');
     })
 
+    $('.ct_search_input input').focus(function () {
+      $('.ct_search_input input').attr('placeholder', 'Type here...');
+
+      $(this).parent().addClass('ct_full_search');
+  })
+
+  $('.ct_search_close').click(function(){
+      $('.ct_search_input').removeClass('ct_full_search')
+  })
+
     // Dropdown js S 
+
+
+    $( '#single-select-clear-field' ).select2( {
+      theme: "bootstrap-5",
+      width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+      placeholder: $( this ).data( 'placeholder' ),
+      allowClear: true
+    } );
+
+    $( '#single-select-field' ).select2( {
+      theme: "bootstrap-5",
+      width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+      placeholder: $( this ).data( 'placeholder' ),
+  } );
+
+  $( '#single-select-field2' ).select2( {
+    theme: "bootstrap-5",
+    width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+    placeholder: $( this ).data( 'placeholder' ),
+} );
+$( '#single-select-field3' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
+
+$( '#single-select-field4' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
+$( '#single-select-field5' ).select2( {
+  theme: "bootstrap-5",
+  width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+  placeholder: $( this ).data( 'placeholder' ),
+} );
 
 
     // Sticky Menu js
@@ -24,15 +70,7 @@ $(document).ready(function(){
 
     // Search bar js S
 
-    $('.ct_search_input input').focus(function () {
-        $('.ct_search_input input').attr('placeholder', 'Type here...');
 
-        $(this).parent().addClass('ct_full_search');
-    })
-
-    $('.ct_search_close').click(function(){
-        $('.ct_search_input').removeClass('ct_full_search')
-    })
 
 
     $(".ct_all_cateogries_main12 ul > li > a").hover(function () {
@@ -132,7 +170,10 @@ $(document).ready(function(){
     }
 })
 
+
+
 })
+
 
 
 

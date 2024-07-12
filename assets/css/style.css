@@ -182,7 +182,7 @@ transform: rotate(45deg);
 
 
 
-.ct_custom_dropdown ul {
+.ct_custom_dropdown > ul {
     position: absolute;
     flex-direction: column;
     width: 250px;
@@ -200,6 +200,7 @@ transform: rotate(45deg);
     visibility: hidden;
     opacity: 0;
     z-index: 9999;
+    display: none;
 }
 .ct_custom_dropdown ul  a{
     color: #000;
@@ -235,11 +236,13 @@ li.ct_custom_dropdown {
     transform: translateY(0px);
     visibility: visible;
     opacity: 1;
+    display: block;
 }
 header.ct_sticky_menu {
     position: fixed;
     background-color: #fff;
     width: 100%;
+    top: 0px;
     z-index: 9;
     animation: slideDown 0.35s ease-out;
 }
