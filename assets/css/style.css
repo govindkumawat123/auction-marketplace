@@ -839,3 +839,202 @@ footer{
     padding: 26px 15px;
     border-top: 1px solid rgb(134 134 235 / 14%);
 }
+
+
+/* Login page css S */
+.ct_login_inner_left {
+    height: auto;
+    max-height: 700px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+section.ct_login_main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.ct_login_bg {
+    background-color: rgb(58 70 209 / 65%);
+    padding: 40px;
+    border-radius: 15px;
+    height: 700px;
+    overflow-y: auto;
+}
+.ct_right_login_bg {
+    background-color: #fff;
+    padding: 40px 15px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.ct_input_login {
+    background-color: #ffffff1c;
+    height: 48px;
+    color: #fff !important;
+}
+.ct_input_login:focus{
+    background-color: #ffffff1c;
+}
+.ct_text_decoration_under_line{
+    text-decoration: underline;
+}
+/* Login page css E */
+
+
+/* Multistep Form Css S */
+.multisteps-form__progress {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  }
+   
+  .multisteps-form__progress-btn {
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    position: relative;
+    padding-top: 20px;
+    color: #ffffff59;
+    text-indent: -9999px;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+  }
+  @media (min-width: 500px) {
+    .multisteps-form__progress-btn {
+      text-indent: 0;
+    }
+  }
+  .multisteps-form__progress-btn:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 13px;
+    height: 13px;
+    content: '';
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    transition: all 0.15s linear 0s, -webkit-transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+    transition: all 0.15s linear 0s, transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+    transition: all 0.15s linear 0s, transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s, -webkit-transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    background-color: #ffffff59;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  .multisteps-form__progress-btn:after {
+    position: absolute;
+    top: 5px;
+    left: calc(-50% - 13px / 2);
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    display: block;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background-color: #fff;
+    z-index: 1;
+  }
+  .multisteps-form__progress-btn:first-child:after {
+    display: none;
+  }
+  .multisteps-form__progress-btn.js-active {
+    color: #fff;
+  }
+  .multisteps-form__progress-btn.js-active:before {
+    -webkit-transform: translateX(-50%) scale(1.2);
+            transform: translateX(-50%) scale(1.2);
+    background-color: #fff;
+  }
+   
+  .multisteps-form__form {
+    position: relative;
+  }
+   
+  .multisteps-form__panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+display: none;
+  }
+  .multisteps-form__panel.js-active {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    display: block;
+  }
+  .multisteps-form__panel[data-animation="scaleOut"] {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  input {
+    color-scheme: dark;
+  }
+  .multisteps-form__panel[data-animation="scaleOut"].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .multisteps-form__panel[data-animation="slideHorz"] {
+    left: 50px;
+  }
+  .multisteps-form__panel[data-animation="slideHorz"].js-active {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.2, 1.13, 0.38, 1.43);
+    transition-delay: 0s;
+    left: 0;
+  }
+  .multisteps-form__panel[data-animation="slideVert"] {
+    top: 30px;
+  }
+  .multisteps-form__panel[data-animation="slideVert"].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    top: 0;
+  }
+  .multisteps-form__panel[data-animation="fadeIn"].js-active {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+  }
+  .multisteps-form__panel[data-animation="scaleIn"] {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  .multisteps-form__panel[data-animation="scaleIn"].js-active {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .ct_grid_2_new{
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap:5px;
+  }
+/* Multistep Form Css E */
