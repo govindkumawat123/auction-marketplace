@@ -1624,3 +1624,30 @@ p.ct_tooltip_text:before {
   display: inline-block;
 }
 /* Create Offer css E */
+
+.ct_img_75{
+  width: 75px;
+}
+button.ct_decrease_price {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.ct_increase_decrease_btns {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transform: translateY(-50%);
+}
+
+.ct_decrease_price:focus{
+  background-color: var(--ct_light_blue);
+  color:#fff
+}
+.ct_commandment_cnt_input{
+  position: relative;
+}
